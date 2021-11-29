@@ -1,0 +1,42 @@
+
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(form.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.content{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+.content h1{
+	font-size: 70px;
+	margin-top: 30px;
+	font-family: Papyrus;
+}
+.content table{
+	width: auto;
+	text-align: justify;
+	font-family: Georgia;	
+}	
+.buttons{
+	font-size: 20px;
+	width: 200px;
+	padding: 15px 0;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #fff;
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
